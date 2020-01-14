@@ -7,12 +7,39 @@
 header{
     display: flex;
 }
+article{
+    margin-left: 10px;
+}
+li{
+    display: inline;
+    text-decoration: none;
+    
+}
+a{
+    text-decoration: none;
+    color: red;
+ 
+}
+.content{
+    display: flex;
+}
+.container{
+    margin: 20px;
+}
 .navbar_btn{
     width: 5%;
 	border: 5px solid red;
 	cursor: pointer;
 }
-
+.navigations{
+    padding: 10px;
+    margin: 10px 10px 10px 0px;
+    display: inline-flex;
+    border: 3px solid red;
+    background-color: black;
+    text-transform: capitalize; 
+    align-content: flex-end;
+}
 .bar1, .bar2, .bar3{
 	width: 30px;
 	height: 5px;
@@ -20,13 +47,42 @@ header{
 	background:black;
 	transition: all 2s ease;
 }
-
-/*.container{
+  
+#button-holder{
     display: flex;
-    min-height: 100vh;
-    justify-content: center;
-    align-items: center;
-}*/
+    border: 3px solid black;
+    border-radius: 10px;
+    
+}
+  
+#button-holder img{
+    margin:4px;
+    width:50px; 
+}
+#search-text-input{
+    font-size: 20px;
+    border: 0px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 5px;
+    width: 400px;
+}
+#button-holder{
+    margin-left: 130px;
+}
+#home,
+#tendancies,
+#subscriptions,
+#library{
+    text-align: center;
+    margin: 50px;
+    padding: 10px;
+}
+#tendancies,
+#subscriptions,
+#library{
+    border-left: 3px solid red;
+}
 .icon{
     width: 8%;
 }
