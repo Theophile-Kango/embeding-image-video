@@ -1,3 +1,7 @@
+body{
+    background-color: #f1f1f1;
+}
+
 *{
     margin: 0px;
     padding: 0px;
@@ -17,8 +21,18 @@ li{
 }
 a{
     text-decoration: none;
-    color: red;
+    color: white;
  
+}
+.bars{
+    border: 5px solid black;
+}
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 100%;
 }
 .content{
     display: flex;
@@ -27,19 +41,25 @@ a{
     margin: 20px;
 }
 .navbar_btn{
-    width: 5%;
-	border: 5px solid red;
+    display: flex;
+    width: 13%;
 	cursor: pointer;
 }
 .navigations{
     padding: 10px;
     margin: 10px 10px 10px 0px;
     display: inline-flex;
-    border: 3px solid red;
+    border: 3px solid white;
     background-color: black;
     text-transform: capitalize; 
     align-content: flex-end;
 }
+
+.avatar{
+    width:50px;
+    border-radius: 50%;
+}
+
 .bar1, .bar2, .bar3{
 	width: 30px;
 	height: 5px;
@@ -68,7 +88,7 @@ a{
     width: 400px;
 }
 #button-holder{
-    margin-left: 130px;
+    text-align: center;
 }
 #home,
 #tendancies,
@@ -81,8 +101,8 @@ a{
 #tendancies,
 #subscriptions,
 #library{
-    border-left: 3px solid red;
+    border-left: 3px solid white;
 }
 .icon{
-    width: 8%;
+    width: 70%;
 }
