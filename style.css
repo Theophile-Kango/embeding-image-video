@@ -72,6 +72,7 @@ p{
 .avatar{
     width:50px;
     border-radius: 50%;
+    margin-right: 10px;
 }
 
 .bar1, .bar2, .bar3{
@@ -93,6 +94,19 @@ p{
 .views{
     margin-top: 1rem;
     color: rgb(92, 84, 84);
+}
+.subscribe{
+    font-size: 1rem;
+    border: 0px;
+    width: 100px;
+    height: 30px;
+    color: white;
+    background: red;
+}
+.suscribers{
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
 }
 #button-holder{
     display: flex;
@@ -132,4 +146,10 @@ p{
 #subscriptions,
 #library{
     border-left: 3px solid white;
+}
+#title-song{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    align-content: center;
 }
