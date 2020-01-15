@@ -17,12 +17,12 @@ article{
 li{
     display: inline;
     text-decoration: none;
-    
+
 }
 a{
     text-decoration: none;
     color: white;
- 
+
 }
 .bars{
     border: 5px solid black;
@@ -51,7 +51,7 @@ a{
     display: inline-flex;
     border: 3px solid white;
     background-color: black;
-    text-transform: capitalize; 
+    text-transform: capitalize;
     align-content: flex-end;
 }
 
@@ -63,21 +63,21 @@ a{
 .bar1, .bar2, .bar3{
 	width: 30px;
 	height: 5px;
-	margin: 0.5rem; 
+	margin: 0.5rem;
 	background:black;
 	transition: all 2s ease;
 }
-  
+
 #button-holder{
     display: flex;
     border: 3px solid black;
     border-radius: 10px;
-    
+
 }
-  
+
 #button-holder img{
     margin:4px;
-    width:50px; 
+    width:50px;
 }
 #search-text-input{
     font-size: 20px;
