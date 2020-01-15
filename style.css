@@ -1,11 +1,18 @@
 body{
-    background-color: #f1f1f1;
+    background-color: #ccc;
 }
 
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100hv;
+    align-items: center;
+    align-content: center;
 }
 
 header{
@@ -54,7 +61,9 @@ a{
     text-transform: capitalize;
     align-content: flex-end;
 }
-
+.material-icons{
+    cursor: pointer;
+}
 .avatar{
     width:50px;
     border-radius: 50%;
@@ -67,16 +76,24 @@ a{
 	background:black;
 	transition: all 2s ease;
 }
-
+.icon{
+    cursor: pointer;
+    border: 5px solid black;
+    border-left: 0px;
+    width: 70%;
+}
 #button-holder{
     display: flex;
+    background: white;
     border: 3px solid black;
     border-radius: 10px;
-
 }
 
 #button-holder img{
-    margin:4px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-left: 3px solid black;
+    margin: 0px 0px 0px 4px;
     width:50px;
 }
 #search-text-input{
@@ -86,6 +103,7 @@ a{
     border-bottom-left-radius: 10px;
     padding: 5px;
     width: 400px;
+    outline: none;
 }
 #button-holder{
     text-align: center;
@@ -103,6 +121,4 @@ a{
 #library{
     border-left: 3px solid white;
 }
-.icon{
-    width: 70%;
-}
+
