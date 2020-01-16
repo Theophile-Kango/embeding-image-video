@@ -1,236 +1,257 @@
-  body{
-      font-family: Arial, Helvetica, sans-serif;
-      background-color: #ccc;
-  }
 
-  *{
-      margin: 0px;
-      padding: 0px;
-      box-sizing: border-box;
-  }
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ccc;
+}
+video{
+    max-width: 100%;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 
-  header{
-      display: flex;
-  }
-  article{
-      margin-left: 10px;
-  }
-  li{
-      display: inline;
-      text-decoration: none;
+header{
+    display: flex;
+}
+article{
+    margin-left: 10px;
+}
+li{
+    display: inline;
+    text-decoration: none;
 
-  }
-  a{
-      text-decoration: none;
-      color: white;
-  }
-  i{
-      cursor: pointer;
-      font-size:24px;
-      margin-left: 50px
-  }
-  i:hover{
-      color: blue;
-  }
-  p{
-      font-style: 3rem;
-  }
-  h2, h3, h4, h5{
-      font-weight: normal;
-  }
-  h4, h5{
-      line-height: 2px;
-  }
-  h2{
-      font-size: 1rem;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+i{
+    cursor: pointer;
+    font-size:24px;
+    margin-left: 50px
+}
+i:hover{
+    color: blue;
+}
+p{
+    font-style: 3rem;
+}
+h2, h3, h4, h5{
+    font-weight: normal;
+}
+h4, h5{
+    line-height: 2px;
+}
+h2{
+    font-size: 1rem;
 
-  }
-  h3{
-      font-size: .9rem;
-      color: rgb(92, 84, 84);
-  }
-  button{
-      cursor: pointer;
-  }
-  hr{
-      margin: 5px
-  }
-  button:hover{
-      color: blue;
-  }
-  .container{
-      display: flex;
-      flex-direction: column;
-      min-height: 100hv;
-      align-items: center;
-      align-content: center;
-  }
-  .bars{
-      border: 5px solid black;
-  }
-  .header-content{
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      text-align: center;
-      width: 100%;
-  }
-  .content{
-      display: flex;
-  }
-  .container{
-      margin: 20px;
-  }
-  .navbar_btn{
-      display: flex;
-      width: 13%;
-  	cursor: pointer;
-  }
-  .navigations{
-      padding: 10px;
-      margin: 10px 10px 10px 0px;
-      display: inline-flex;
-      border: 3px solid white;
-      background-color: black;
-      text-transform: capitalize;
-      align-content: flex-end;
-  }
-  .material-icons{
-      cursor: pointer;
-  }
-  .avatar{
-      width:50px;
-      border-radius: 50%;
-      margin-right: 10px;
-  }
+}
+h3{
+    font-size: .9rem;
+    color: rgb(92, 84, 84);
+}
+button{
+    cursor: pointer;
+}
+hr{
+    margin: 5px
+}
+button:hover{
+    color: blue;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100hv;
+    
+    align-items: center;
+    align-content: center;
+}
+.bars{
+    border: 5px solid black;
+}
+.naav{
+    display: flex;
+    
+    justify-content: space-between;
+    
+}
+.nav{
+    margin-left: 0px;
+}
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+.content{
+    display: flex;
+}
+.videos{
+    width: 200px;
+    height: 200px;
+}
+.video{
+    width:775px; 
+    height: 400px;
+}
+.container{
+    margin: 20px;
+}
+.navbar_btn{
+    display: flex;
+    width: 13%;
+    cursor: pointer;
+}
+.navigations{
+    padding: 10px;
+    margin: 10px 10px 10px 0px;
+    display: inline-flex;
+    border: 3px solid white;
+    background-color: black;
+    text-transform: capitalize;
+    align-content: flex-end;
+}
+.material-icons{
+    cursor: pointer;
+}
+.avatar{
+    width:50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
 
-  .bar1, .bar2, .bar3{
-  	width: 30px;
-  	height: 5px;
-  	margin: 0.5rem;
-  	background:black;
-  	transition: all 2s ease;
-  }
-  .icon{
-      cursor: pointer;
-      border: 5px solid black;
-      border-left: 0px;
-      width: 70%;
-  }
-  .videotitle{
-      margin-top: 1rem;
-  }
-  .views{
-      margin-top: 1rem;
-      color: rgb(92, 84, 84);
-  }
-  .subscribe{
-      font-size: 1rem;
-      border: 0px;
-      width: 100px;
-      height: 30px;
-      color: white;
-      background: red;
-  }
-  .suscribers{
-      display: flex;
-      justify-content: space-between;
-      align-content: space-between;
-  }
-  .first-video, .second-video, .third-video, .fourth-video, .fifth-video{
-      display: flex;
-      margin-bottom: 15px;
-      justify-content: center;
-  }
-  .first-video-details, .second-video-details, .third-video-details, .fourth-video-details, .fifth-video-details{
-      margin-left: 15px;
-  }
-  .title-song, .comments{
-      display: flex;
-      align-items: flex-start;
-      align-content: center;
-  }
-  .input-comment{
-      font-size: 1rem;
-      padding: 5px;
-      border: none;
-      background: #ccc;
-      border-bottom: 3px solid grey;
-      outline: none;
-      width: 100%;
-  }
-  .input-comment:hover{
-      border-bottom: 3px solid black;
-  }
-  .comments{
-      justify-content: space-between;
-  }
-  .plus{
+.bar1, .bar2, .bar3{
+    width: 30px;
+    height: 5px;
+    margin: 0.5rem;
+    background:black;
+    transition: all 2s ease;
+}
+.icon{
+    cursor: pointer;
+    border: 5px solid black;
+    border-left: 0px;
+    width: 70%;
+}
+.videotitle{
+    margin-top: 1rem;
+}
+.views{
+    margin-top: 1rem;
+    color: rgb(92, 84, 84);
+}
+.subscribe{
+    font-size: 1rem;
+    border: 0px;
+    width: 100px;
+    height: 30px;
+    color: white;
+    background: red;
+}
+.suscribers{
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.first-video, .second-video, .third-video, .fourth-video, .fifth-video{
+    display: flex;
+    margin-bottom: 15px;
+    justify-content: center;
+}
+.first-video-details, .second-video-details, .third-video-details, .fourth-video-details, .fifth-video-details{
+    margin-left: 15px;
+}
+.title-song, .comments{
+    display: flex;
+    align-items: flex-start;
+    align-content: center;
+}
+.input-comment{
+    font-size: 1rem;
+    padding: 5px;
+    border: none;
+    background: #ccc;
+    border-bottom: 3px solid grey;
+    outline: none;
+    width: 100%;
+}
+.input-comment:hover{
+    border-bottom: 3px solid black;
+}
+.comments{
+    justify-content: space-between;
+}
+.plus{
 
-      color:  rgb(92, 84, 84);
-  }
-  .comments-button{
-      display: flex;
-      justify-content: flex-end;
-  }
-  .add, .reset{
-      width: 25%;
-      height: 40px;
-      font-size: 1rem;
-      text-transform: capitalize;
-      color: white;
-      border: none;
-  }
-  .add{
-      background-color: green;
-  }
-  .reset{
-      background-color: brown;
-      margin-left: 15px;
-      height: 40px;
-  }
-  .reply{
-      margin-left: 50px;
-      font-size: 1rem;
-      background-color: #ccc;
-      border: none;
-  }
-  #button-holder{
-      display: flex;
-      background: white;
-      border: 3px solid black;
-      border-radius: 10px;
-  }
+    color:  rgb(92, 84, 84);
+}
+.comments-button{
+    display: flex;
+    justify-content: flex-end;
+}
+.add, .reset{
+    width: 25%;
+    height: 40px;
+    font-size: 1rem;
+    text-transform: capitalize;
+    color: white;
+    border: none;
+}
+.add{
+    background-color: green;
+}
+.reset{
+    background-color: brown;
+    margin-left: 15px;
+    height: 40px;
+}
+.reply{
+    margin-left: 50px;
+    font-size: 1rem;
+    background-color: #ccc;
+    border: none;
+}
+#button-holder{
+    display: flex;
+    background: white;
+    border: 3px solid black;
+    border-radius: 10px;
+}
 
-  #button-holder img{
-      border-top-right-radius: 5px;
-      border-bottom-right-radius: 5px;
-      border-left: 3px solid black;
-      margin: 0px 0px 0px 4px;
-      width:50px;
-  }
-  #search-text-input{
-      font-size: 20px;
-      border: 0px;
-      border-top-left-radius: 10px;
-      border-bottom-left-radius: 10px;
-      padding: 5px;
-      width: 400px;
-      outline: none;
-  }
-  #button-holder{
-      text-align: center;
-  }
-  #home,
-  #tendancies,
-  #subscriptions,
-  #library{
-      text-align: center;
-      margin: 50px;
-      padding: 10px;
-  }
-  #tendancies,
-  #subscriptions,
-  #library{
-      border-left: 3px solid white;
-  }
+#button-holder img{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-left: 3px solid black;
+    margin: 0px 0px 0px 4px;
+    width:50px;
+}
+#search-text-input{
+    font-size: 20px;
+    border: 0px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 5px;
+    width: 400px;
+    outline: none;
+}
+#button-holder{
+    text-align: center;
+}
+#home,
+#tendancies,
+#subscriptions,
+#library{
+    text-align: center;
+    margin: 50px;
+    padding: 10px;
+}
+#tendancies,
+#subscriptions,
+#library{
+    border-left: 3px solid white;
+}
