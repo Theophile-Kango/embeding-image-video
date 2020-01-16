@@ -29,6 +29,15 @@ a{
 p{
     font-style: 3rem;
 }
+h2{
+    font-size: 1rem;
+    font-weight: normal;
+}
+h3{
+    font-size: .9rem;
+    font-weight: normal;
+    color: rgb(92, 84, 84);
+}
 .container{
     display: flex;
     flex-direction: column;
@@ -107,6 +116,14 @@ p{
     display: flex;
     justify-content: space-between;
     align-content: space-between;
+}
+.first-video{
+    display: flex;
+    margin-bottom: 15px;
+    justify-content: center;
+}
+.first-video-details{
+    margin-left: 15px;
 }
 #button-holder{
     display: flex;
