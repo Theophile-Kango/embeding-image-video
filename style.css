@@ -117,12 +117,12 @@ h3{
     justify-content: space-between;
     align-content: space-between;
 }
-.first-video{
+.first-video, .second-video, .third-video{
     display: flex;
     margin-bottom: 15px;
     justify-content: center;
 }
-.first-video-details{
+.first-video-details, .second-video-details, .third-video-details{
     margin-left: 15px;
 }
 #button-holder{
