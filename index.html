@@ -1,164 +1,189 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
+  <!DOCTYPE html>
+  <html lang="en" dir="ltr">
 
-<head>
-  <title>Embedding Image And Video On Youtube</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
+  <head>
+    <title>Embedding Image And Video On Youtube</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
 
-<body>
-  <div class="container">
-    <header class="header-content">
-      <div class="navbar_btn">
-        <div class="bars">
-          <div class="bar bar1"></div>
-          <div class="bar bar2"></div>
-          <div class="bar bar3"></div>
+  <body>
+    <div class="container">
+      <header class="header-content">
+        <div class="navbar_btn">
+          <div class="bars">
+            <div class="bar bar1"></div>
+            <div class="bar bar2"></div>
+            <div class="bar bar3"></div>
+          </div>
+          <img class="icon" src="img/youtube.png" alt="Youtube" />
         </div>
-        <img class="icon" src="img/youtube.png" alt="Youtube" />
-      </div>
 
-      <div id="button-holder">
-        <input type="text" placeholder="Search" id='search-text-input' />
-        <img src="img/search.jpeg">
-      </div>
-      <div class="icons">
-        <i class="material-icons" style="font-size:3rem;">&#xe39d;</i>
-        <i class="material-icons" style="font-size:3rem;">&#xe5c3;</i>
-        <i class="material-icons" style="font-size:3rem;">&#xe003;</i>
-        <img class="material-icons avatar" src="img/avatar-1577909_960_720.webp" alt="avatar" />
-      </div>
-    </header>
-    <nav class="navigations">
-      <ul>
-        <li id="home"><a href="#">home</a></li>
-        <li id="tendancies"><a href="#">tendancies</a></li>
-        <li id="subscriptions"><a href="#">subscriptions</a></li>
-        <li id="library"><a href="#">library</a></li>
-      </ul>
-    </nav>
-    <div class="content">
-      <section>
-        <iframe width="775" height="400"
-          src="https://www.youtube.com/embed/5L4FbKbyIeA&list=RD0G7jfUpDYc0&index=2?playlist=OP-00EwLdiU&list=RD0G7jfUpDYc0&index=3,mqF1EhsBz0A&list=RD0G7jfUpDYc0&index=4"
-          frameborder="0" allowfullscreen> </iframe>
-        <div class="videotitle">
-          <p>Quand Tu parles (100 milliards de fois) | Hillsong En Français</p>
-          <div class="views">
-            <span> 1921 952 vues•8 févr. 2018</span>
+        <div id="button-holder">
+          <input type="text" placeholder="Search" id='search-text-input' />
+          <img src="img/search.jpeg">
+        </div>
+        <div class="icons">
+          <i class="material-icons" style="font-size:3rem;">&#xe39d;</i>
+          <i class="material-icons" style="font-size:3rem;">&#xe5c3;</i>
+          <i class="material-icons" style="font-size:3rem;">&#xe003;</i>
+          <img class="material-icons avatar" src="img/avatar-1577909_960_720.webp" alt="avatar" />
+        </div>
+      </header>
+      <nav class="navigations">
+        <ul>
+          <li id="home"><a href="#">home</a></li>
+          <li id="tendancies"><a href="#">tendancies</a></li>
+          <li id="subscriptions"><a href="#">subscriptions</a></li>
+          <li id="library"><a href="#">library</a></li>
+        </ul>
+      </nav>
+      <div class="content">
+        <section>
+          <iframe width="775" height="400"
+            src="https://www.youtube.com/embed/5L4FbKbyIeA&list=RD0G7jfUpDYc0&index=2?playlist=OP-00EwLdiU&list=RD0G7jfUpDYc0&index=3,mqF1EhsBz0A&list=RD0G7jfUpDYc0&index=4"
+            frameborder="0" allowfullscreen> </iframe>
+          <div class="videotitle">
+            <p>Quand Tu parles (100 milliards de fois) | Hillsong En Français</p>
+            <div class="views">
+              <span> 1921 952 vues•8 févr. 2018</span>
+              <span>
+                <i  class="fa">&#xf087;</i>
+                <span> 10 k</span>
+                <i  class="fa">&#xf165;</i>
+                <span> 417 </span>
+                <i  class="fa">&#xf064;</i>
+                <span> SHARE </span>
+                <i  style="margin-bottom: 30px" class="fa">&#xf0fe;</i>
+                <span> SAVE </span>
+              </span>
+            </div>
+            <div class="suscribers">
+              <div class="title-song">
+                <img class="material-icons avatar" src="img/avatar-1577909_960_720.webp" alt="avatar" />
+                <span>Hillsong En Français <br />50,9 k subscribers</span>
+              </div>
+              <button class="subscribe" type="submit">subscribe</button>
+            </div>
+          </div>
+          <br>
+          <hr>
+          <div class="title-song">
+            <img class="material-icons avatar" src="img/avatar.jpeg" alt="avatar">
             <span>
-              <i  class="fa">&#xf087;</i>
-              <span> 10 k</span>
-              <i  class="fa">&#xf165;</i>
-              <span> 417 </span>
-              <i  class="fa">&#xf064;</i>
-              <span> SHARE </span>
-              <i  style="margin-bottom: 30px" class="fa">&#xf0fe;</i>
-              <span> SAVE </span>
+              jooe <br>
+              5,89 k subscribers
+              <br>
+              <a style="color: blue;" href=" https://hillsong.com/fr/france/"> https://hillsong.com/fr/france/</a>
+              <br>
+              <br>
+              <div class="plus">PLUS</div>
             </span>
           </div>
-          <div class="suscribers">
-            <div class="title-song">
-              <img class="material-icons avatar" src="img/avatar-1577909_960_720.webp" alt="avatar" />
-              <span>Hillsong En Français <br />50,9 k subscribers</span>
+
+          <hr>
+
+          <div class="comments">
+            <span>
+              324 comments
+            </span>
+            <span>
+              Sort By
+              <i class="fa fa-sort-amount-desc"></i>
+            </span>
+          </div>
+          <br>
+          <div class="comments">
+            <img class="material-icons avatar" src="img/avatar.jpeg" alt="avatar">
+            <input class="input-comment" type="text" placeholder="add a public comment">
+          </div>
+          <div class="comments-button">
+            <button class="add" type="submit">add a comment</button>
+            <button class="reset" type="reset">reset a comment</button>
+          </div>
+
+          <div class="title-song">
+            <img class="material-icons avatar" src="img/avatar.jpeg" alt="avatar">
+            <span>
+
+             <h4>Nicklas Persson</h4>
+             <br>
+             <h5>four years ago</h5>
+             <br>
+             <p>Thank you for investing your time in such a cool theme :)</p>
+              <br>
+              <i  class="fa">&#xf087;</i>
+                <span> 10</span>
+                <i class="fa">&#xf165;</i>
+                <span>7</span>
+                <button class="reply">REPLY</button>
+            </span>
+          </div>
+
+        </section>
+
+        <article>
+          <div class="first-video">
+            <iframe width="200" height="200" src="https://www.youtube.com/embed/gqdc4jLjGKQ"
+            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe>
+            <div class="first-video-details">
+              <h2>Backend Web Developer Guide 2020</h2>
+              <h3>Web Dev Simplified</h3>
+              <h3>25244 views</h3>
             </div>
-            <button class="subscribe" type="submit">subscribe</button>
           </div>
-        </div>
-        <br>
-        <hr>
-        <div class="title-song">
-          <img class="material-icons avatar" src="img/avatar.jpeg" alt="avatar">
-          <span>
-            jooe <br>
-            5,89 k subscribers
-            <br>
-            <a style="color: blue;" href=" https://hillsong.com/fr/france/"> https://hillsong.com/fr/france/</a>
-            <br>
-            <br>
-            <div class="plus">PLUS</div>
-          </span> 
-        </div>  
-        
-        <hr>
-       
-        <div class="comments">
-          <span>
-            324 comments
-          </span>
-          <span>
-            Sort By
-            <i class="fa fa-sort-amount-desc"></i>
-          </span>
-        </div>
-        <br>
-        <div class="comments">
-          <img class="material-icons avatar" src="img/avatar.jpeg" alt="avatar">
-          <input class="input-comment" type="text" placeholder="add a public comment">
-        </div>
-        <div class="comments-button">
-          <button class="add" type="submit">add a comment</button>
-          <button class="reset" type="reset">reset a comment</button>
-        </div>
 
-        <div class="title-song">
-          <img class="material-icons avatar" src="img/avatar.jpeg" alt="avatar">
-          <span>
-            
-           <h4>Nicklas Persson</h4>
-           <br>
-           <h5>four years ago</h5>
-           <br> 
-           <p>Thank you for investing your time in such a cool theme :)</p>
-            <br>
-            <i  class="fa">&#xf087;</i>
-              <span> 10</span>
-              <i class="fa">&#xf165;</i>
-              <span>7</span>
-              <button class="reply">REPLY</button>
-          </span>
-        </div>
+          <div class="second-video">
+            <iframe width="200" height="200" src="https://www.youtube.com/embed/JRanDRgYxu8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;
+           picture-in-picture" allowfullscreen>
+            </iframe>
+            <div class="second-video-details">
+              <h2>How I Became a Web Developer in 3 Months</h2>
+              <h3>Web Dev Simplified</h3>
+              <h3>287,286 views</h3>
+            </div>
+          </div>
 
-      </section>
+          <div class="third-video">
+            <iframe width="200" height="200" src="https://www.youtube.com/embed/SC5ROke_WMc" frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="third-video-details">
+              <h2>JJ Hairston & Mercy Chinwo : EXCESS LOVE REMIX (OFFICIAL VIDEO)</h2>
+              <h3>JJ Hairston </h3>
+              <h3>6,461,611 views</h3>
+            </div>
+          </div>
 
-      <article>
-        <div class="first-video">
-          <iframe width="200" height="200" src="https://www.youtube.com/embed/gqdc4jLjGKQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;
-      picture-in-picture" allowfullscreen>
-          </iframe>
-          <div class="first-video-details">
-            <h2>Backend Web Developer Guide 2020</h2>
-            <h3>Web Dev Simplified</h3>
-            <h3>25244 views</h3>
+          <div class="fourth-video">
+            <iframe width="200" height="200" src="https://www.youtube.com/embed/AI-SjFD8JWk"
+            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+           </iframe>
+            <div class="fourth-video-details">
+              <h2>Yummy Mummy Love: Joan & Zack Munyi's Love Story (Full Eps)</h2>
+              <h3>Ebru TV Kenya</h3>
+              <h3>151,084 views</h3>
+            </div>
           </div>
-        </div>
-        <div class="second-video">
-          <iframe width="200" height="200" src="https://www.youtube.com/embed/JRanDRgYxu8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;
-         picture-in-picture" allowfullscreen>
-          </iframe>
-          <div class="second-video-details">
-            <h2>How I Became a Web Developer in 3 Months</h2>
-            <h3>Web Dev Simplified</h3>
-            <h3>287,286 views</h3>
+
+          <div class="fifth-video">
+            <iframe width="200" height="200" src="https://www.youtube.com/embed/mSJdxAgc0Lw"
+            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+           </iframe>
+            <div class="fifth-video-details">
+              <h2>18-Year Age Gap & A Beautiful Blended Family</h2>
+              <h3>Ebru TV Kenya</h3>
+              <h3>405,885 views</h3>
+            </div>
           </div>
-        </div>
-        <div class="third-video">
-          <iframe width="200" height="200" src="https://www.youtube.com/embed/SC5ROke_WMc" frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <div class="third-video-details">
-            <h2>JJ Hairston & Mercy Chinwo : EXCESS LOVE REMIX (OFFICIAL VIDEO)</h2>
-            <h3>JJ Hairston </h3>
-            <h3>6,461,611 views</h3>
-          </div>
-        </div>
-      </article>
+
+        </article>
+      </div>
     </div>
-  </div>
-  </div>
-</body>
+    </div>
+  </body>
 
-</html>
+  </html>
