@@ -24,19 +24,40 @@ li{
 a{
     text-decoration: none;
     color: white;
-
+}
+i{
+    cursor: pointer;
+    font-size:24px; 
+    margin-left: 50px
+}
+i:hover{
+    color: blue;
 }
 p{
     font-style: 3rem;
 }
+h2, h3, h4, h5{
+    font-weight: normal;
+}
+h4, h5{
+    line-height: 2px;
+}
 h2{
     font-size: 1rem;
-    font-weight: normal;
+    
 }
 h3{
     font-size: .9rem;
-    font-weight: normal;
     color: rgb(92, 84, 84);
+}
+button{
+    cursor: pointer;
+}
+hr{
+    margin: 5px
+}
+button:hover{
+    color: blue;
 }
 .container{
     display: flex;
@@ -125,6 +146,56 @@ h3{
 .first-video-details, .second-video-details, .third-video-details{
     margin-left: 15px;
 }
+.title-song, .comments{
+    display: flex;
+    align-items: flex-start;
+    align-content: center;
+}
+.input-comment{
+    font-size: 1rem;
+    padding: 5px;
+    border: none;
+    background: #ccc;
+    border-bottom: 3px solid grey;
+    outline: none;
+    width: 100%;
+}
+.input-comment:hover{
+    border-bottom: 3px solid black;
+}
+.comments{
+    justify-content: space-between;
+}
+.plus{
+    
+    color:  rgb(92, 84, 84);
+}
+.comments-button{
+    display: flex;
+    justify-content: flex-end;
+}
+.add, .reset{
+    width: 25%;
+    height: 40px;
+    font-size: 1rem;
+    text-transform: capitalize;
+    color: white;
+    border: none;
+}
+.add{
+    background-color: green;
+}
+.reset{
+    background-color: brown;
+    margin-left: 15px;
+    height: 40px;
+}
+.reply{
+    margin-left: 50px;
+    font-size: 1rem;
+    background-color: #ccc;
+    border: none;
+}
 #button-holder{
     display: flex;
     background: white;
@@ -164,9 +235,4 @@ h3{
 #library{
     border-left: 3px solid white;
 }
-#title-song{
-    display: flex;
-    text-align: center;
-    align-items: center;
-    align-content: center;
-}
+
