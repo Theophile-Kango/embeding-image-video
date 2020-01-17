@@ -278,7 +278,7 @@ i .nav{
         height: 3px;
     }
     .icon{
-        width: 70px; 
+      
         border: 2px solid black;
     }
     
@@ -296,6 +296,7 @@ i .nav{
         height: 200px;
     }
     .navbar_btn{
+    
         order: 1;
     }
     .naav{
