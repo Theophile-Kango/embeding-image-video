@@ -168,9 +168,10 @@ i .nav{
     justify-content: center;
 }
 .first-video-details, .second-video-details, .third-video-details, .fourth-video-details, .fifth-video-details{
-    
+    width: 200px;
     margin-left: 15px;
     font-size: 1rem;
+    
 }
 .title-song, .comments{
     display: flex;
@@ -277,7 +278,7 @@ i .nav{
         height: 3px;
     }
     .icon{
-        width: 70px; 
+      
         border: 2px solid black;
     }
     
@@ -295,6 +296,7 @@ i .nav{
         height: 200px;
     }
     .navbar_btn{
+    
         order: 1;
     }
     .naav{

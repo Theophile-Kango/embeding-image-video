@@ -186,6 +186,30 @@
     </div>
   </div>
   </div>
+  <script>
+    let videos = window.ytInitialData.contents.twoColumnSearchResultsRenderer.primaryContents.sectionListRenderer.contents["0"].itemSectionRenderer.contents;
+
+
+if (!videos.length) { // includes other renderers i.e: "did you mean ..."
+    console.log('no videos in search'); 
+    //return;
+}
+
+let video = videos.filter( v => v.videoRenderer && v.videoRenderer.videoId == "USPwv1zwWV4")
+
+if (!video.length) { 
+    console.log('no video by that ID in search'); 
+    //return;
+}
+
+let thumbs = video[0].videoRenderer.richThumbnail.movingThumbnailRenderer.movingThumbnailDetails.thumbnails;
+
+if (!thumbs.length) { 
+    console.log('no moving thumbs for that video'); 
+    //return;
+}
+
+  </script>
 </body>
 
 </html>
