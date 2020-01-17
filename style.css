@@ -168,9 +168,10 @@ i .nav{
     justify-content: center;
 }
 .first-video-details, .second-video-details, .third-video-details, .fourth-video-details, .fifth-video-details{
-    
+    width: 200px;
     margin-left: 15px;
     font-size: 1rem;
+    
 }
 .title-song, .comments{
     display: flex;
