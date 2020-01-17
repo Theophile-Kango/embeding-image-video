@@ -1,15 +1,49 @@
 # embeding-image-video
 
-This project consists of building an HTML document that matches the appearance of youtube video player page
+# What it does
+This project consists of building an HTML document that matches the appearance of youtube video player page. It entails embedding the YouTube video player into the page so it actually plays and shows little thumbnail images along the right side
 
-Overview
+## Built With
+- HTML
+- CSS
+#### and deployed to Netlify
 
-It entails embedding the YouTube video player into the page so it actually plays and showing little thumbnail images along the right side
+## Live Demo
 
-Features
+[Live Demo](https://theophile-ritha-youtubeproject.netlify.com)
 
-Built with HTML and CSS
+## Getting Started
 
-Running project
+To get a local copy up and running follow these simple example steps.
+- Clone the project unto your local machine
+- `cd` into the project directory
+- Open up index.html in your browser to view the project
 
-To run the project you have to open the folder and scroll down into index.html or https://theophile-ritha-youtubeproject.netlify.com
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome! Start by:
+* Forking the project
+* Cloning the project to your local machine
+* `cd` into the project directory
+* Run `git checkout -b your-branch-name`
+* Make your contributions
+* Push your branch up to your forked repository
+* Open a Pull Request with a detailed description to the development branch of the original project for a review
+
+Feel free to check the [issues page](https://github.com/Theophile-Kango/embeding-image-video/issues).
+
+## Attributions and Credit
+Special thanks to [Theophile Kango], it was fun working with you! 
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## 📝 License
+
+This project is licensed by Microverse.
+
+
+Check out my stories on [GitHub](https://github.com/Buyaki01) to see our upcoming projects!
+Follow me on [Instagram](https://www.instagram.com/rittahbuyaki/?hl=en) and [Twitter](https://twitter.com/BuyakiRitta) to see what I am up to!
+### Enjoy!
