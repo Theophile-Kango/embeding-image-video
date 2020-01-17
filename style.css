@@ -317,7 +317,11 @@ i .nav{
         display: flex;
         flex-direction: column;
     }
+    .avatar{
+        width: 3rem;
+    }
     .naav{
+        
         order: 2;
     }
     .navigations{
@@ -332,7 +336,8 @@ i .nav{
         height: 3px;
     }
     .icon{
-        width: 70px; 
+        width: 3rem; 
+        height: 3rem;
         border: 2px solid black;
     }
     .bars{
