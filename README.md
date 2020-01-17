@@ -1,17 +1,15 @@
 # embeding-image-video
 
-Title embeding-image-video
+This project consists of building an HTML document that matches the appearance of youtube video player page
 
 Overview
 
-This is the first HTML and CSS3 project of Microverse
-
-It is just about designing a youtube home page
+It entails embedding the YouTube video player into the page so it actually plays and showing little thumbnail images along the right side
 
 Features
 
-This project help to play a video from youtube
+Built with HTML and CSS
 
 Running project
 
-To run the project you have to open the folder and scroll down into index.html, just open it
+To run the project you have to open the folder and scroll down into index.html or https://theophile-ritha-youtubeproject.netlify.com
