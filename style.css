@@ -78,6 +78,9 @@ button:hover{
     justify-content: space-between;
     
 }
+i .nav{
+    font-size: 3rem;
+}
 .nav{
     margin-left: 0px;
 }
@@ -138,6 +141,7 @@ button:hover{
     border-left: 0px;
     width: 70%;
 }
+
 .videotitle{
     margin-top: 1rem;
 }
@@ -164,7 +168,9 @@ button:hover{
     justify-content: center;
 }
 .first-video-details, .second-video-details, .third-video-details, .fourth-video-details, .fifth-video-details{
+    width: 200px;
     margin-left: 15px;
+    font-size: 1rem;
 }
 .title-song, .comments{
     display: flex;
@@ -255,3 +261,107 @@ button:hover{
 #library{
     border-left: 3px solid white;
 }
+@media (max-width: 600px){
+    
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    .bars{
+        width: 40px;
+        border: 2px solid black;
+        border-right: 0px;
+    }
+    .bar1, .bar2, .bar3{
+        width: 7px;
+        height: 3px;
+    }
+    .icon{
+        width: 70px; 
+        border: 2px solid black;
+    }
+    
+    .content{
+        font-size: 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .videos{
+        width: 80%;
+        height: 200px
+    }
+    .video, .videos{
+        width: 100%;
+        height: 200px;
+    }
+    .navbar_btn{
+        order: 1;
+    }
+    .naav{
+        order: 2;
+    }
+    .navigations{
+        display: none;
+    }
+    #button-holder{
+        order: 3;
+        margin-bottom: 5px;
+    }
+   
+}
+@media (min-width: 600px) and (max-width: 1200px) {
+
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    .naav{
+        order: 2;
+    }
+    .navigations{
+        display: none;
+    }
+    #button-holder{
+        order: 3;
+        margin-bottom: 5px;
+    }
+    .bar1, .bar2, .bar3{
+        width: 10px;
+        height: 3px;
+    }
+    .icon{
+        width: 70px; 
+        border: 2px solid black;
+    }
+    .bars{
+        width: 40px;
+        border: 2px solid black;
+        border-right: 0px;
+    }
+    .content{
+        font-size: 1rem;
+        display: flex;
+        flex-direction: column;
+      
+    }
+    
+
+    .videos, .video{
+        width: 100%;
+        height: 200px;
+    }
+   
+    .first-video, .second-video, .third-video, .fourth-video, .fifth-video{
+        width: 100%;
+        display: flex;
+        margin-bottom: 15px;
+        justify-content: center;
+        
+    }
+    .first-video-details, .second-video-details, .third-video-details, .fourth-video-details, .fifth-video-details{
+        width: 200px;
+        margin-left: 15px;
+        font-size: 1rem;
+    }
+    
+  }
