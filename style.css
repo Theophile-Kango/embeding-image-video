@@ -282,9 +282,8 @@ i .nav{
         height: 3px;
     }
     .icon{
-        width: 3rem;
-        height: 3rem;
-        border-radius: 50%;
+        width: 5rem;
+        height: 5rem;
         border: 2px solid black;
     }
     
@@ -311,7 +310,7 @@ i .nav{
     .navigations{
         display: none;
     }
-    #button-holder{
+    #search-text-input{
         width: 100%;
         height: 3rem;
         order: 3;
