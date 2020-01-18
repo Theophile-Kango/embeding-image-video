@@ -19,16 +19,20 @@ To get a local copy up and running follow these simple example steps.
 - `cd` into the project directory
 - Open up index.html in your browser to view the project
 
-## 🤝 Contributing
+## Authors
 
-Contributions, issues and feature requests are welcome! Start by:
-* Forking the project
-* Cloning the project to your local machine
-* `cd` into the project directory
-* Run `git checkout -b your-branch-name`
-* Make your contributions
-* Push your branch up to your forked repository
-* Open a Pull Request with a detailed description to the development branch of the original project for a review
+## Author1
+
+Github:  @Theophile-Kango
+Twitter: @Theophadh
+Linkedin: https://www.linkedin.com/in/theophile-kango-b6b580194/
+
+## Author2
+
+Github: @Buyaki01
+Twitter: @BuyakiRitta
+
+## 🤝 Contributing
 
 Feel free to check the [issues page](https://github.com/Theophile-Kango/embeding-image-video/issues).
 
@@ -43,7 +47,4 @@ Give a ⭐️ if you like this project!
 
 This project is licensed by Microverse.
 
-
-Check out my stories on [GitHub](https://github.com/Buyaki01) to see our upcoming projects!
-Follow me on [Instagram](https://www.instagram.com/rittahbuyaki/?hl=en) and [Twitter](https://twitter.com/BuyakiRitta) to see what I am up to!
 ### Enjoy!
