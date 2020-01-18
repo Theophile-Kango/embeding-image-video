@@ -58,6 +58,9 @@ button{
 hr{
     margin: 5px
 }
+iframe{
+    border-width: 0px;
+}
 button:hover{
     color: blue;
 }
@@ -268,6 +271,10 @@ i .nav{
         display: flex;
         flex-direction: column;
     }
+    .avatar{
+        width: 3rem;
+        height: 3rem;
+    }
     .bars{
         width: 40px;
         border: 2px solid black;
@@ -295,10 +302,7 @@ i .nav{
         width: 100%;
         height: 200px;
     }
-    .navbar_btn{
     
-        order: 1;
-    }
     .naav{
         order: 2;
     }
@@ -306,8 +310,13 @@ i .nav{
         display: none;
     }
     #button-holder{
+        width: 100%;
+        height: 3rem;
         order: 3;
         margin-bottom: 5px;
+    }
+    #search-text-input{
+        width: 100%;
     }
    
 }
@@ -317,7 +326,11 @@ i .nav{
         display: flex;
         flex-direction: column;
     }
+    .avatar{
+        width: 3rem;
+    }
     .naav{
+        
         order: 2;
     }
     .navigations{
@@ -332,7 +345,8 @@ i .nav{
         height: 3px;
     }
     .icon{
-        width: 70px; 
+        width: 7rem; 
+        height: 2rem;
         border: 2px solid black;
     }
     .bars{

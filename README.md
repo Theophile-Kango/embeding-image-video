@@ -1,17 +1,50 @@
 # embeding-image-video
 
-Title embeding-image-video
+# What it does
+This project consists of building an HTML document that matches the appearance of youtube video player page. It entails embedding the YouTube video player into the page so it actually plays and shows little thumbnail images along the right side
 
-Overview
+## Built With
+- HTML
+- CSS
+#### and deployed to Netlify
 
-This is the first HTML and CSS3 project of Microverse
+## Live Demo
 
-It is just about designing a youtube home page
+[Live Demo](https://theophile-ritha-youtubeproject.netlify.com)
 
-Features
+## Getting Started
 
-This project help to play a video from youtube
+To get a local copy up and running follow these simple example steps.
+- Clone the project unto your local machine
+- `cd` into the project directory
+- Open up index.html in your browser to view the project
 
-Running project
+## Authors
 
-To run the project you have to open the folder and scroll down into index.html, just open it
+## Author1
+
+Github:  @Theophile-Kango
+Twitter: @Theophadh
+Linkedin: https://www.linkedin.com/in/theophile-kango-b6b580194/
+
+## Author2
+
+Github: @Buyaki01
+Twitter: @BuyakiRitta
+
+## 🤝 Contributing
+
+Feel free to check the [issues page](https://github.com/Theophile-Kango/embeding-image-video/issues).
+
+## Attributions and Credit
+Special thanks to [Theophile Kango], it was fun working with you! 
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## 📝 License
+
+This project is licensed by Microverse.
+
+### Enjoy!
