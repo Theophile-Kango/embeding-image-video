@@ -23,9 +23,9 @@ To get a local copy up and running follow these simple example steps.
 
 ## Author1
 
-Github:  @Theophile-Kango
-Twitter: @Theophadh
-Linkedin: https://www.linkedin.com/in/theophile-kango-b6b580194/
+[Github](https://www.github.com/Theophile-Kango)
+[Twitter](https://twitter.com/Theophadh)
+[Linkedin](https://www.linkedin.com/in/theophile-kango-b6b580194/)
 
 ## Author2
 
