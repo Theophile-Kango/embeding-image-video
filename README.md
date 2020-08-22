@@ -1,12 +1,16 @@
+[![hire-badge](https://img.shields.io/badge/Consult%20/%20Hire%20Theophile-Click%20to%20Contact-brightgreen)](mailto:fadhili.kango@gmail.com ) [![Twitter Follow](https://img.shields.io/twitter/follow/Theophadh?label=Follow%20Theophile%20on%20Twitter&style=social)](https://twitter.com/Theophadh)
+
+[![hire-badge](https://img.shields.io/badge/Consult%20/%20Hire%20Theophile-Click%20to%20Contact-brightgreen)](mailto:rittahbuyaki@gmail.com ) [![Twitter Follow](https://img.shields.io/twitter/follow/Theophadh?label=Follow%20Theophile%20on%20Twitter&style=social)](https://twitter.com/BuyakiRitta)
+
 # embeding-image-video
 
-# What it does
 This project consists of building an HTML document that matches the appearance of youtube video player page. It entails embedding the YouTube video player into the page so it actually plays and shows little thumbnail images along the right side
 
 ## Built With
+
 - HTML
 - CSS
-#### and deployed to Netlify
+and deployed to Netlify
 
 ## Live Demo
 
@@ -21,16 +25,17 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-## Author1
+👤  **Theophile Kango**
 
-[Github](https://www.github.com/Theophile-Kango)
-[Twitter](https://twitter.com/Theophadh)
-[Linkedin](https://www.linkedin.com/in/theophile-kango-b6b580194/)
+- Github: [@githubhandle](https://github.com/Theophile-Kango)
+- Twitter: [@twitterhandle](https://twitter.com/Theophadh)
+- Linkedin: [linkedin](https://www.linkedin.com/in/theophile-kango)
 
-## Author2
+👤  **Buyaki Ritta**
 
-Github: @Buyaki01
-Twitter: @BuyakiRitta
+- Github: [@githubhandle](https://github.com/Buyaki01)
+- Twitter: [@twitterhandle](https://twitter.com/BuyakiRitta)
+- Linkedin: [linkedin](https://www.linkedin.com/in/ritta-sweta-b12904128/)
 
 ## 🤝 Contributing
 

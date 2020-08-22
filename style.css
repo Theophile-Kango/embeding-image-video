@@ -14,6 +14,7 @@ video{
 
 header{
     display: flex;
+    margin-bottom: 20px;
 }
 article{
     margin-left: 10px;
@@ -113,15 +114,7 @@ i .nav{
     width: 13%;
     cursor: pointer;
 }
-.navigations{
-    padding: 10px;
-    margin: 10px 10px 10px 0px;
-    display: inline-flex;
-    border: 3px solid white;
-    background-color: black;
-    text-transform: capitalize;
-    align-content: flex-end;
-}
+
 .material-icons{
     cursor: pointer;
 }
