@@ -1,10 +1,14 @@
 [![hire-badge](https://img.shields.io/badge/Consult%20/%20Hire%20Theophile-Click%20to%20Contact-brightgreen)](mailto:fadhili.kango@gmail.com ) [![Twitter Follow](https://img.shields.io/twitter/follow/Theophadh?label=Follow%20Theophile%20on%20Twitter&style=social)](https://twitter.com/Theophadh)
 
-[![hire-badge](https://img.shields.io/badge/Consult%20/%20Hire%20Theophile-Click%20to%20Contact-brightgreen)](mailto:rittahbuyaki@gmail.com ) [![Twitter Follow](https://img.shields.io/twitter/follow/Theophadh?label=Follow%20Theophile%20on%20Twitter&style=social)](https://twitter.com/BuyakiRitta)
+[![hire-badge](https://img.shields.io/badge/Consult%20/%20Hire%20Buyaki-Click%20to%20Contact-brightgreen)](mailto:rittahbuyaki@gmail.com ) [![Twitter Follow](https://img.shields.io/twitter/follow/Buyaki?label=Follow%20Buyaki%20on%20Twitter&style=social)](https://twitter.com/BuyakiRitta)
 
 # embeding-image-video
 
 This project consists of building an HTML document that matches the appearance of youtube video player page. It entails embedding the YouTube video player into the page so it actually plays and shows little thumbnail images along the right side
+
+## Screenshort
+
+![youtube](img/screenshort.jpeg)
 
 ## Built With
 
